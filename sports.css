@@ -1,0 +1,215 @@
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color:black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity:0.9;
+  height:100px;
+
+}
+a:hover{
+text-decoration:underline;
+  background-color:white;
+  color:black;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.navbar a:hover {
+  text-decoration:underline;
+  background-color:white;
+  color:black;
+  height:100px;
+}
+
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+.parallax {
+  background-image: url("prlx4.jpg");
+  min-height:300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax1 {
+  background-image: url("prlx.jpg");
+  min-height:300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  background-image: url("prlx5.jpg");
+  min-height:300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3 {
+  background-image: url("prlx6.jpg");
+  min-height:300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax4 {
+  background-image: url("prlx7.jpg");
+  min-height:300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax5 {
+  background-image: url("prlx8.jpg");
+  min-height:300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax6 {
+  background-image: url("prlx9.jpg");
+  min-height:300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax7 {
+  background-image: url("prlx10.jpg");
+  min-height:300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input[type=text] {
+  width:480px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  border-radius:50px;
+}
+
+input[type=text]:hover {
+  box-shadow:10px 10px 20px;
+  border-radius:50px;
+}
+
+.content {
+  position:absolute;
+  margin-top:-350px;
+  margin-left:500px;
+}
+.flex-container {
+  display: flex;
+
+}
+
+.flex-container > div {
+  background-color:white;
+
+  padding: 20px;
+  font-size: 30px;
+}
+.flip-box {
+  background-color: transparent;
+  width: 200px;
+  height: 230px;
+  perspective: 1000px;
+
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+  box-shadow:10px 10px 20px grey;
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color:black;
+  color: white;
+  transform: rotateY(180deg);
+}
+.Flex-containers{
+                max-width: 1400px;
+                margin: 40px auto 0 auto;
+                display: flex;
+            }
+            .Flex-Box{
+                padding: 20px;
+                margin: 20px;
+                flex: 1;
+                margin-right: 40px;
+                display: block;
+            }
+            .Flex-Box:hover{
+                transform: scale(1.1);
+                box-shadow: 5px 5px 10px black;
+            }
+            .Flex-Box:last-child{
+                margin-right: 0;
+            }
+            .Flex-Box:nth-child(1){
+                background-color:#b49383;
+            }
+            .Flex-Box:nth-child(2){
+                background-color:#b49383;
+            }
+            .Flex-Box:nth-child(3){
+                background-color:#b49383;
+            }
+            .Flex-Box img{
+                margin-left: 20%;
+                border-radius: 50%;
+				border:2px solid white;
+            }
